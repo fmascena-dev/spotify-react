@@ -6,13 +6,13 @@
   left: 0;
   bottom: 0;
   padding: 0.75rem;
-  width: 300px;
+  width: 320px;
 }
 
 .sidebar__navigation {
   background-color: var(--secondary-color);
   border-radius: 0.5rem;
-  padding: 1rem 0 0 1rem;
+  padding: 1rem 0 0 0.25rem;
 }
 
 .logo {
@@ -85,7 +85,8 @@
   color: var(--primary-color);
   font-weight: 600;
   font-size: 0.875rem;
-  margin-top: 0.625rem;
+  margin-top: 1rem;
+  height: 55vh;
 }
 
 .library .library__content {
@@ -163,14 +164,14 @@
     font-weight: 700;
     text-decoration:none;
     text-transform: none;
-    padding: 0.625rem;
+    padding: 0.525rem;
     margin-top: 0.75rem;
     border:0;
     width: 113px;
 }
 
 .sidebar .cookies {
-    margin: 1.5rem 1.125rem;
+    margin: 1rem 1.125rem;
 }
 
 .sidebar .cookies a {
