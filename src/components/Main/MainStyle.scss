@@ -1,7 +1,7 @@
 @use '../../partials/colors' as *;
 
 .playlist-container {
-  height: 68vh;
+  height: 70vh;
   padding-top: 1rem;
   margin: 0.625rem;
   border-radius: 0.625rem;
@@ -68,58 +68,58 @@
 }
 
 .cards span {
-  padding: 16px;
+  padding: 1rem;
   position: absolute;
-  color: #fff;
-  font-size: 24px;
+  color: var(--text-base-light);
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 /* COLOR CARDS */
 .card1 {
-  background-color: rgb(0, 100, 80);
+  background-color: var(--card1);
 }
 .card2 {
-  background-color: rgb(132, 0, 231);
+  background-color: var(--card2);
 }
 .card3 {
-  background: rgb(30, 50, 100);
+  background: var(--card3);
 }
 .card4 {
-  background: rgb(140, 25, 50);
+  background: var(--card4);
 }
 .card5 {
-  background: rgb(232, 17, 91);
+  background: var(--card5);
 }
 .card6 {
-  background: rgb(83, 122, 161);
+  background: var(--card6);
 }
 .card7 {
-  background: rgb(142, 102, 172);
+  background: var(--card7);
 }
 .card8 {
-  background: rgb(20, 138, 8);
+  background: var(--card8);
 }
 .card9 {
-  background: rgb(30, 50, 100);
+  background: var(--card9);
 }
 .card10 {
-  background: rgb(233, 20, 41);
+  background: var(--card10);
 }
 .card11 {
-  background: rgb(80, 55, 80);
+  background: var(--card11);
 }
 .card12 {
-  background: rgb(216, 64, 0);
+  background: var(--card12);
 }
 .card13 {
-  background: rgb(186, 93, 7);
+  background: var(--card13);
 }
 .card14 {
-  background: rgb(0, 30, 80);
+  background: var(--card14);
 }
 .card15 {
-  background: rgb(60, 30, 80);
+  background: var(--card15);
 }
 /* FIM COLOR CARDS */
 
@@ -136,7 +136,7 @@
   
   .artist {
     --column-count: 5;
-    --grid-gap: 24px;
+    --grid-gap: 1.5rem;
     --min-container-width: 372px;
   }
   
@@ -145,19 +145,19 @@
   }
   
   .grid-container {
-    grid-gap:24px;
+    grid-gap:1.5rem;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     min-width: 767px;
   }
   
   .artist-card {
-    background: #181818;
-    border-radius: 8px;
+    background: var(--card-color);
+    border-radius: 0.5rem;
     -ms-flex: 1;
     flex: 1;
     isolation: isolate;
-    padding: 16px;
+    padding: 1rem;
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
@@ -186,7 +186,7 @@
   .card-text {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: var(--text-base-light);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
+import Sidebar from './components/Sidebar/Sidebar'
 
 export default function App() {
 
@@ -9,6 +10,7 @@ export default function App() {
       <div>
         <Header />
         <Main />
+        <Sidebar />
       </div>
     </>
   )
